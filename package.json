@@ -1,6 +1,6 @@
 {
   "name": "@thebaum/brainfuck",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "minimal brainfuck compiler and repl",
   "main": "index.js",
   "scripts": {
