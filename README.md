@@ -1,5 +1,15 @@
 # brainfuck-compiler-repl-js
 a brainfuck compiler and brainfuck repl i made cause i was bored.
 
+# installation:
+you can install the package by:
+1. running `npm i -g @thebaum/brainfuck`
+2. cloning the repo, opening it and running `npm i -g .`
 # how to use:
-Use `npm i` from the repos root to install dependencys. Either install using `npm install . -g` from the repos root and then run `bf <path-to-brainfuck-code>` to run a file with brainfuck code or just launch the repl with `bf`. You can also use `node . <path-to-brainfuck-code>` or `node .` from the repos root respectivley instead without installing.
+run `bf` after installing to open the repl (read-evaluate-print-loop)
+or
+
+run `node .` from the repos root to open the repl
+or
+
+append a path to a brainfuck program to one of these methods to run it (e.g.:`bf ~/Desktop/helloWorld.bf`) to run the brainfuck program called helloWorld.bf on your desktop.
